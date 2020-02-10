@@ -9,10 +9,10 @@
 </head>
 
 <body background="../images/vegan-background.jpg">
-		<header align="center">
-			<iframe scrolling="no" src="header.html" width="1640px" height="210px">
-			</iframe>
-		</header>
+    <header align="center">
+        <iframe scrolling="no" src="header.html" width="1640px" height="210px">
+        </iframe>
+    </header>
 
     <main>
         <table width="70%" align="center">
@@ -37,9 +37,7 @@
             <tr height="400vh">
                 <td colspan="1" align="center" width="15%">
                     <a href="vegan-kebab2.html">
-                        <font size="7">
-                            &#x3c;
-                        </font>
+                        <img src="../images/left-arrow.svg.png" alt="Previous" title="Previous" width="60">
                     </a>
                 </td>
                 <td align="center" colspan="3">
@@ -74,50 +72,55 @@
                 </th>
             </tr>
             <tr height="200vh">
-                <td align="center">
-                    <u>
-                        <b>
-                            <p>Choose your bread:</p>
-                        </b>
-                    </u>
-                    <input type="radio" name="bread" value="flat">Flat breads<br>
-                    <input type="radio" name="bread" value="pita">Pita breads<br>
-                    <input type="radio" name="bread" value="cabbage">Cabbage leaves<br>
-                </td>
-                <td align="center">
-                    <u>
-                        <b>
-                            <p>Choose your ingredients:</p>
-                        </b>
-                    </u>
-                    <input type="radio" value="cucumbers">Cucumbers<br>
-                    <input type="radio" value="tomatoes">Tomatoes<br>
-                    <input type="radio" value="beans">Beans<br>
-                    <input type="radio" value="lentils">Lentils<br>
-                    <input type="radio" value="avocados">Avocados<br>
-                    <input type="radio" value="onions">Onions<br>
-                    <input type="radio" value="pickles">Pickles<br>
-                    <input type="radio" value="corn">Corn<br>
+                <td align="center" colspan="2">
+                    <p>
+                        <form action="">
+                            <u>
+                                <strong>
+                                    <p>Choose your bread:</p>
+                                </strong>
+                            </u>
+                            <input type="radio" name="bread" value="flat">Flat breads<br>
+                            <input type="radio" name="bread" value="pita">Pita breads<br>
+                            <input type="radio" name="bread" value="cabbage">Cabbage leaves<br>
+
+                            <u>
+                                <strong>
+                                    <p>Choose your ingredients:</p>
+                                </strong>
+                            </u>
+                            <input type="radio" value="cucumbers">Cucumbers<br>
+                            <input type="radio" value="tomatoes">Tomatoes<br>
+                            <input type="radio" value="beans">Beans<br>
+                            <input type="radio" value="lentils">Lentils<br>
+                            <input type="radio" value="avocados">Avocados<br>
+                            <input type="radio" value="onions">Onions<br>
+                            <input type="radio" value="pickles">Pickles<br>
+                            <input type="radio" value="corn">Corn<br>
+
+                            <br>
+
+                            <input type="submit" value="Order" />
+
+                        </form>
+                    </p>
+
                 </td>
             </tr>
             <tr>
                 <td colspan="2" align="center">
-                    <form action="formulaire.html">
-                        <input type="submit" value="Order" />
-                    </form>
-                    <br>
-                    <form action="menu.html">
-                        <input type="submit" value="Go Back" />
-                    </form>
+                    <a href="../html/menu.html">
+                        <img src="../images/go-back.png" alt="Go Back" title="Go Back" width="50">
+                    </a>
                 </td>
             </tr>
         </table>
     </main>
 
-	<footer align="center">
-			<iframe scrolling="no" src="footer.html" width="1640px" height="265px">
-			</iframe>
-	</footer>
+    <footer align="center">
+        <iframe scrolling="no" src="footer.html" width="1640px" height="265px">
+        </iframe>
+    </footer>
 </body>
 
 </html>
